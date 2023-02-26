@@ -1,0 +1,1 @@
+https://www.1001fonts.com/tex-gyre-adventor-font.html
