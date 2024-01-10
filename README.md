@@ -2,8 +2,11 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Deze Git repository bevat alle relevante bestanden voor de CWO Kielboot I, II en III lesboeken van Scouting Sint Maarten. 
+|  Kielboot I | Kielboot II  | Kielboot III  |
+|---|---|---|
+| ![Kielboot I](/Common/Omslag/Omslag%20-%20KBI.png)  | [![Kielboot I](/Common/Omslag/Omslag%20-%20KBII.png)](/Kielboot%20II/Versies) | [![Kielboot I](/Common/Omslag/Omslag%20-%20KBIII.png)](/Kielboot%20III/Versies)  |
 
-*De bestanden voor KB I en II volgen later*
+*De bestanden voor KB I volgt later*
 
 ## Tools en Project Structuur
 Het lesboek is geschreven in [Latex](https://nl.wikipedia.org/wiki/LaTeX) en is bewerkt in [TeXstudio](https://www.texstudio.org/). De map *Kielboot III* bevat alle bronbestanden voor het lesboeken en is op de volgende manier gestructureerd:
