@@ -1,0 +1,139 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The Legrand Orange Book
+% LaTeX Template
+% Version 2.3 (8/8/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Mathias Legrand (legrand.mathias@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Compiling this template:
+% This template uses biber for its bibliography and makeindex for its index.
+% When you first open the template, compile it from the command line with the 
+% commands below to make sure your LaTeX distribution is configured correctly:
+%
+% 1) pdflatex main
+% 2) makeindex main.idx -s StyleInd.ist
+% 3) biber main
+% 4) pdflatex main x 2
+%
+% After this, when you wish to update the bibliography/index use the appropriate
+% command above and make sure to compile with pdflatex several times 
+% afterwards to propagate your changes to the document.
+%
+% This template also uses a number of packages which may need to be
+% updated to the newest versions for the template to compile. It is strongly
+% recommended you update your LaTeX distribution if you have any
+% compilation errors.
+%
+% Important note:
+% Chapter heading images should have a 2:1 width:height ratio,
+% e.g. 920px width and 460px height.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,fleqn]{book} % Default font size and left-justified equations
+%----------------------------------------------------------------------------------------
+
+\input{../structure} % Insert the commands.tex file which contains the majority of the structure behind the template
+\usepackage{graphicx}
+\usepackage{lscape}
+\usepackage{pgfgantt}
+\usepackage{multicol}
+\usepackage{caption} 
+\usepackage{float}
+\usepackage{pdfpages}
+\usepackage{wrapfig}
+\usepackage{enumitem}
+\usepackage[export]{adjustbox}
+\captionsetup[table]{skip=5pt}
+\usepackage{parskip}  %Prevents having to use // after each paragraph
+\usepackage{todonotes} %For easy Todo managment
+
+\pdfinclusioncopyfonts=1 % This fixes missing characher form figures
+\pdfsuppresswarningpagegroup=1 % ignore page group warning
+
+\begin{document}	
+	\setlength{\marginparwidth}{2cm}
+	\thispagestyle{empty}
+	\makeatletter\@openrightfalse
+	\makeatother
+
+	% Overwrite the page-number to disable it
+	\fancyfoot[LE,RO]{}
+	% Disable the use of a chapter image
+	\usechapterimagefalse
+	
+	\pagestyle{empty}
+	
+	% Make a new chapter heading for the cards
+	\renewcommand{\chapter}[1]{
+	\newpage
+	\begin{tikzpicture}[remember picture,overlay]
+		\node at (current page.north west){
+			\begin{tikzpicture}[remember picture,overlay]
+				\textbf{\draw[anchor=west] (0cm,-1cm) node [fill=black,fill opacity=0.4,inner sep=12pt]{\strut\makebox[22cm]{}};}
+				\draw[anchor=west] (1.5cm,-1.1cm) node {\Huge\sffamily\bfseries\color{white}#1};
+				\draw[anchor=east] (19.5cm,-1cm) node {\Huge\sffamily\bfseries\color{white}KB II};
+		\end{tikzpicture}};
+	\end{tikzpicture}
+	}
+	
+%	\fancyfoot[C]{Concept versie}
+	
+	\chapter{Oploeven}
+	\begin{tikzpicture}[remember picture,overlay]
+		\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth, page = 1]{../Hoofdstukken/Manoeuvres/manoeuvres.pdf}};
+	\end{tikzpicture}
+
+
+	\chapter{Afvallen}
+	\begin{tikzpicture}[remember picture,overlay]
+		\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth, page = 2]{../Hoofdstukken/Manoeuvres/manoeuvres.pdf}};
+	\end{tikzpicture}
+
+
+	\chapter{Overstag}
+	\begin{tikzpicture}[remember picture,overlay]
+		\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=0.95\paperwidth, page = 3]{../Hoofdstukken/Manoeuvres/manoeuvres.pdf}};
+	\end{tikzpicture}
+	
+	\chapter{Gijp}
+	\begin{tikzpicture}[remember picture,overlay]
+		\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=0.95\paperwidth, page = 4]{../Hoofdstukken/Manoeuvres/manoeuvres.pdf}};
+	\end{tikzpicture}
+
+	\chapter{Hogerwal}
+
+	\begin{tikzpicture}[remember picture,overlay]
+		\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth, page = 5]{../Hoofdstukken/Manoeuvres/manoeuvres.pdf}};
+	\end{tikzpicture}
+	\newpage
+	\begin{tikzpicture}[remember picture,overlay]
+		\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth, page = 6]{../Hoofdstukken/Manoeuvres/manoeuvres.pdf}};
+	\end{tikzpicture}
+
+
+	\chapter{Man over boord}
+
+	\begin{tikzpicture}[remember picture,overlay]
+		\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=0.95\paperwidth, page = 7]{../Hoofdstukken/Manoeuvres/manoeuvres.pdf}};
+	\end{tikzpicture}
+	
+
+	\chapter{Stormrondje}
+	\begin{tikzpicture}[remember picture,overlay]
+		\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=0.95\paperwidth, page = 8]{../Hoofdstukken/Manoeuvres/manoeuvres.pdf}};
+	\end{tikzpicture}
+
+\end{document}
