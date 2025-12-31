@@ -4,8 +4,9 @@
 Deze Git repository bevat alle relevante bestanden voor de CWO Kielboot I, II en III lesboeken van Scouting Sint Maarten. 
 |  Kielboot I | Kielboot II  | Kielboot III  |
 |---|---|---|
-| [![Kielboot I](/Common/Omslag/Omslag%20-%20KBI.png)](/Kielboot%20I/Versies)  | [![Kielboot I](/Common/Omslag/Omslag%20-%20KBII.png)](/Kielboot%20II/Versies) | [![Kielboot I](/Common/Omslag/Omslag%20-%20KBIII.png)](/Kielboot%20III/Versies)  |
-
+| ![Kielboot I](/Common/Omslag/Omslag%20-%20KBI.png)  | ![Kielboot I](/Common/Omslag/Omslag%20-%20KBII.png) | ![Kielboot I](/Common/Omslag/Omslag%20-%20KBIII.png)  |
+| [Download KB I Lesboek](https://raw.githubusercontent.com/ScoutingSintMaarten/Kielboot-Lesboeken/main/Kielboot%20I/Versies/Kielboot%20I%20Lesboek%20-%20Scouting%20Sint%20Maarten%20Hoofddorp%20-%20Versie%201.1.pdf) | [Download KB II Lesboek](https://raw.githubusercontent.com/ScoutingSintMaarten/Kielboot-Lesboeken/main/Kielboot%20II/Versies/Kielboot%20II%20Lesboek%20-%20Scouting%20Sint%20Maarten%20Hoofddorp%20-%20Versie%202.4.pdf) | [Download KB III Lesboek](https://raw.githubusercontent.com/ScoutingSintMaarten/Kielboot-Lesboeken/main/Kielboot%20III/Versies/Kielboot%20III%20Lesboek%20-%20Scouting%20Sint%20Maarten%20Hoofddorp%20-%20Versie%201.1.pdf) |
+| | [Download KB II Manoeuvre Kaarten](https://raw.githubusercontent.com/ScoutingSintMaarten/Kielboot-Lesboeken/main/Kielboot%20II/Versies/Manoeuvre%20Kaarten%20KB%20II%20-%20Scouting%20Sint%20Maarten%20Hoofddorp%20-%20Versie%202.0.pdf) | [Download KB III Manoeuvre Kaarten](https://raw.githubusercontent.com/ScoutingSintMaarten/Kielboot-Lesboeken/main/Kielboot%20III/Versies/Manoeuvre%20Kaarten%20KB%20III%20-%20Scouting%20Sint%20Maarten%20Hoofddorp%20-%20Versie%201.0.pdf) |
 ## Tools en Project Structuur
 Het lesboek is geschreven in [Latex](https://nl.wikipedia.org/wiki/LaTeX) en is bewerkt in [TeXstudio](https://www.texstudio.org/). De map *Kielboot III* bevat alle bronbestanden voor het lesboeken en is op de volgende manier gestructureerd:
 
